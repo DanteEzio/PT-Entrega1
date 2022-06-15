@@ -381,353 +381,333 @@ main {
   }
 
   // *** LAPTOPS ***
+  .laptops {
+    .foto-principal {
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: 46% 0px;
 
-  .foto-principal {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 46% 0px;
-
-    .card {
-      .card-img-overlay {
-        width: 680px;
-        h1 {
-          font-weight: bold;
-          text-transform: uppercase;
-          font-size: 60px;
-          line-height: 1em;
-          font-family: "GeForce-Bold";
-          color: #76b900;
-          text-align: left;
-          align-items: center;
-          word-wrap: break-word;
-          padding-top: 80px;
-        }
-        h2 {
-          font-weight: bold;
-          text-transform: uppercase;
-          font-size: 36px;
-          line-height: 1em;
-          font-family: "GeForce-Bold";
-          color: #fff;
-          text-align: left;
-          word-wrap: break-word;
-        }
-        p {
-          padding: 10px 0;
-          font-weight: normal;
-          font-size: 16px;
-          line-height: 24px;
-          font-family: "DINPro-Light";
-          color: #fff;
-          text-align: left;
-          word-wrap: break-word;
-        }
-      }
-    }
-  }
-
-  .video-caracteristicas {
-    .card {
-      height: 460px;
-      border: none;
-      video {
-        z-index: 0;
-        border: none;
-        height: 100%;
-      }
-      .card-img-overlay {
-        h1 {
-          font-weight: bold;
-          text-transform: uppercase;
-          font-size: 48px;
-          line-height: 1em;
-          font-family: "GeForce-Bold";
-          color: #fff;
-          text-align: left;
-          align-items: center;
-          word-wrap: break-word;
-        }
-      }
-    }
-  }
-
-  .caracteristicas-1 {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    .card {
-      .card-img-overlay {
-        h1 {
-          font-weight: bold;
-          text-transform: uppercase;
-          font-size: 48px;
-          line-height: 1em;
-          font-family: "GeForce-Bold";
-          color: #fff;
-          word-wrap: break-word;
-          padding-top: 30px;
-        }
-        h2 {
-          font-weight: bold;
-          text-transform: uppercase;
-          font-size: 36px;
-          line-height: 1em;
-          font-family: "GeForce-Bold";
-          color: #76b900;
-          align-items: center;
-          word-wrap: break-word;
-        }
-        p {
-          padding-top: 15px;
-          padding-bottom: 20px;
-          width: 70%;
-          margin: 0 auto;
-          font-weight: normal;
-          font-size: 16px;
-          line-height: 24px;
-          font-family: "DINPro-Light";
-          color: #fff;
-          align-items: center;
-          word-wrap: break-word;
-
-          span {
+      .card {
+        .card-img-overlay {
+          width: 680px;
+          padding-top: 145px;
+          h1 {
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 60px;
+            line-height: 1em;
+            font-family: "GeForce-Bold";
             color: #76b900;
+            text-align: left;
+            align-items: center;
+            word-wrap: break-word;
+            padding-top: 80px;
           }
-        }
-
-        a {
-          text-decoration: none;
-          font-weight: bold;
-          text-transform: uppercase;
-          font-size: 16px;
-          line-height: 24px;
-          font-family: "DINPro-Light";
-          color: #76b900;
-          align-items: center;
-          word-wrap: break-word;
-        }
-      }
-    }
-  }
-
-  .caracteristicas-2 {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    .card {
-      .card-img-overlay {
-        h1 {
-          font-weight: bold;
-          text-transform: uppercase;
-          font-size: 48px;
-          line-height: 1em;
-          font-family: "GeForce-Bold";
-          color: #fff;
-          word-wrap: break-word;
-          padding-top: 30px;
-        }
-        h2 {
-          padding-top: 5px;
-          font-weight: bold;
-          text-transform: uppercase;
-          font-size: 24px;
-          line-height: 1em;
-          font-family: "GeForce-Bold";
-          color: #fff;
-          align-items: center;
-          word-wrap: break-word;
-        }
-        p {
-          padding-top: 15px;
-          padding-bottom: 20px;
-          font-weight: normal;
-          font-size: 16px;
-          line-height: 24px;
-          font-family: "DINPro-Light";
-          color: #fff;
-          align-items: center;
-          word-wrap: break-word;
-        }
-
-        a {
-          text-decoration: none;
-          font-weight: bold;
-          text-transform: uppercase;
-          font-size: 16px;
-          line-height: 24px;
-          font-family: "DINPro-Light";
-          color: #76b900;
-          align-items: center;
-          word-wrap: break-word;
-        }
-
-        button {
-          font-weight: bold;
-          text-transform: uppercase;
-          font-family: "DINPro-Light";
-          background-color: #76b900;
-          border-color: #76b900;
-          border-radius: 0;
-          padding: 14px;
-          font-size: 18px;
-
-          &:hover {
-            background-color: #86d103;
+          h2 {
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 36px;
+            line-height: 1em;
+            font-family: "GeForce-Bold";
+            color: #fff;
+            text-align: left;
+            word-wrap: break-word;
+          }
+          p {
+            padding: 10px 0;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 24px;
+            font-family: "DINPro-Light";
+            color: #fff;
+            text-align: left;
+            word-wrap: break-word;
           }
         }
       }
     }
-  }
 
-  .caracteristicas-3 {
-    background-color: #000;
-    padding: 50px;
-    h1 {
-      font-weight: bold;
-      text-transform: uppercase;
-      font-size: 48px;
-      line-height: 1em;
-      font-family: "GeForce-Bold";
-      color: #fff;
-      word-wrap: break-word;
+    .video-caracteristicas {
+      .card {
+        height: 460px;
+        border: none;
+        video {
+          z-index: 0;
+          border: none;
+          height: 100%;
+        }
+        .card-img-overlay {
+          h1 {
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 48px;
+            line-height: 1em;
+            font-family: "GeForce-Bold";
+            color: #fff;
+            text-align: left;
+            align-items: center;
+            word-wrap: break-word;
+          }
+        }
+      }
     }
-    .table-responsive {
-      padding: 40px;
-      table {
-        thead {
-          tr {
-            th {
-              font-weight: bold;
-              text-transform: uppercase;
-              font-size: 16px;
-              line-height: 1em;
-              font-family: "GeForce-Bold";
+
+    .caracteristicas-1 {
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      .card {
+        .card-img-overlay {
+          h1 {
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 48px;
+            line-height: 1em;
+            font-family: "GeForce-Bold";
+            color: #fff;
+            word-wrap: break-word;
+            padding-top: 30px;
+          }
+          h2 {
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 36px;
+            line-height: 1em;
+            font-family: "GeForce-Bold";
+            color: #76b900;
+            align-items: center;
+            word-wrap: break-word;
+          }
+          p {
+            padding-top: 15px;
+            padding-bottom: 20px;
+            width: 70%;
+            margin: 0 auto;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 24px;
+            font-family: "DINPro-Light";
+            color: #fff;
+            align-items: center;
+            word-wrap: break-word;
+
+            span {
               color: #76b900;
-              text-align: center;
-              word-wrap: break-word;
-              box-sizing: border-box;
-              padding-bottom: 15px;
             }
           }
+
+          a {
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 16px;
+            line-height: 24px;
+            font-family: "DINPro-Light";
+            color: #76b900;
+            align-items: center;
+            word-wrap: break-word;
+          }
         }
-        tbody {
-          tr {
-            th {
-              font-weight: normal;
-              font-size: 14px;
-              line-height: 1.25em;
-              font-family: "DINPro-Light";
-              color: #fff;
-              word-wrap: break-word;
-              box-sizing: border-box;
-              padding: 30px 0px;
-              min-width: 158px;
-              text-align: left;
-            }
-            td {
-              font-weight: normal;
-              font-size: 14px;
-              line-height: 1.25em;
-              font-family: "DINPro-Light";
-              color: #fff;
-              text-align: center;
-              word-wrap: break-word;
-              box-sizing: border-box;
-              //   padding: 30px 0px;
-              vertical-align: middle;
-              min-width: 158px;
+      }
+    }
+
+    .caracteristicas-2 {
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      .card {
+        .card-img-overlay {
+          h1 {
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 48px;
+            line-height: 1em;
+            font-family: "GeForce-Bold";
+            color: #fff;
+            word-wrap: break-word;
+            padding-top: 30px;
+          }
+          h2 {
+            padding-top: 5px;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 24px;
+            line-height: 1em;
+            font-family: "GeForce-Bold";
+            color: #fff;
+            align-items: center;
+            word-wrap: break-word;
+          }
+          p {
+            padding-top: 15px;
+            padding-bottom: 20px;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 24px;
+            font-family: "DINPro-Light";
+            color: #fff;
+            align-items: center;
+            word-wrap: break-word;
+          }
+
+          a {
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 16px;
+            line-height: 24px;
+            font-family: "DINPro-Light";
+            color: #76b900;
+            align-items: center;
+            word-wrap: break-word;
+          }
+
+          button {
+            font-weight: bold;
+            text-transform: uppercase;
+            font-family: "DINPro-Light";
+            background-color: #76b900;
+            border-color: #76b900;
+            border-radius: 0;
+            padding: 14px;
+            font-size: 18px;
+
+            &:hover {
+              background-color: #86d103;
             }
           }
         }
       }
     }
 
-    button {
-      font-weight: bold;
-      text-transform: uppercase;
-      font-family: "DINPro-Light";
-      background-color: #76b900;
-      border-color: #76b900;
-      border-radius: 0;
-      padding: 14px;
-      font-size: 18px;
-
-      &:hover {
-        background-color: #86d103;
-      }
-    }
-  }
-
-  .caracteristicas-4 {
-    background-color: #1a1a1a;
-    .gaming {
+    .caracteristicas-3 {
+      background-color: #000;
+      padding: 50px;
       h1 {
-        color: #fff;
-        font-family: "GeForce-Bold";
-        padding-bottom: 10px;
+        font-weight: bold;
         text-transform: uppercase;
         font-size: 48px;
         line-height: 1em;
+        font-family: "GeForce-Bold";
+        color: #fff;
+        word-wrap: break-word;
       }
-      .card-group {
-        .card {
-          border: none;
-          background-color: #000;
-          .card-body {
-            .card-title {
-              font-weight: bold;
-              color: #76b900;
-              font-family: "GeForce-Bold";
-              font-size: 24px;
-              line-height: 1em;
-              text-transform: uppercase;
-            }
-            .card-text {
-              font-size: 16px;
-              color: #fff;
-              padding: 10px 0;
-              line-height: 24px;
-              font-family: "DINPro-Light";
+      .table-responsive {
+        padding: 40px;
+        table {
+          thead {
+            tr {
+              th {
+                font-weight: bold;
+                text-transform: uppercase;
+                font-size: 16px;
+                line-height: 1em;
+                font-family: "GeForce-Bold";
+                color: #76b900;
+                text-align: center;
+                word-wrap: break-word;
+                box-sizing: border-box;
+                padding-bottom: 15px;
+              }
             }
           }
+          tbody {
+            tr {
+              th {
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 1.25em;
+                font-family: "DINPro-Light";
+                color: #fff;
+                word-wrap: break-word;
+                box-sizing: border-box;
+                padding: 30px 0px;
+                min-width: 158px;
+                text-align: left;
+              }
+              td {
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 1.25em;
+                font-family: "DINPro-Light";
+                color: #fff;
+                text-align: center;
+                word-wrap: break-word;
+                box-sizing: border-box;
+                //   padding: 30px 0px;
+                vertical-align: middle;
+                min-width: 158px;
+              }
+            }
+          }
+        }
+      }
 
-          .card-footer {
-            a {
-              font-weight: 700;
-              color: #76b900;
-              font-family: "DINPro-Light";
-              text-transform: uppercase;
+      button {
+        font-weight: bold;
+        text-transform: uppercase;
+        font-family: "DINPro-Light";
+        background-color: #76b900;
+        border-color: #76b900;
+        border-radius: 0;
+        padding: 14px;
+        font-size: 18px;
+
+        &:hover {
+          background-color: #86d103;
+        }
+      }
+    }
+
+    .caracteristicas-4 {
+      background-color: #1a1a1a;
+      .gaming {
+        h1 {
+          color: #fff;
+          font-family: "GeForce-Bold";
+          padding-bottom: 10px;
+          text-transform: uppercase;
+          font-size: 48px;
+          line-height: 1em;
+        }
+        .card-group {
+          .card {
+            border: none;
+            background-color: #000;
+            .card-body {
+              .card-title {
+                font-weight: bold;
+                color: #76b900;
+                font-family: "GeForce-Bold";
+                font-size: 24px;
+                line-height: 1em;
+                text-transform: uppercase;
+              }
+              .card-text {
+                font-size: 16px;
+                color: #fff;
+                padding: 10px 0;
+                line-height: 24px;
+                font-family: "DINPro-Light";
+              }
+            }
+
+            .card-footer {
+              a {
+                font-weight: 700;
+                color: #76b900;
+                font-family: "DINPro-Light";
+                text-transform: uppercase;
+              }
             }
           }
         }
       }
     }
-  }
 
-  .caracteristicas-5 {
-    // animation: boton 10s infinite linear;
+    .caracteristicas-5 {
+      background-color: #1a1a1a;
 
-    // @keyframes boton {
-    //   0% {
-    //     background-color: #000000;
-    //   }
-    //   25% {
-    //     background-color: #333333;
-    //   }
-    //   50% {
-    //     background-color: #4d4d4d;
-    //   }
-    //   75% {
-    //     background-color: #808080;
-    //   }
-    //   100% {
-    //     background-color: #b3b3b3;
-    //   }
-    // }
-
-    background-color: #1a1a1a;
-
-    .gaming {
       h1 {
         color: #76b900;
         font-family: "GeForce-Bold";
@@ -736,68 +716,1017 @@ main {
         font-size: 48px;
         line-height: 1em;
       }
-      .card-group {
-        .card {
-          border: none;
-          background-color: #eee;
-          box-shadow: 0 0 20px 3px #75b900c2;
-          .card-body {
+
+      .container {
+        .col {
+          .card {
+            border: none;
+            background-color: #eee;
+            box-shadow: 0 0 15px 3px #75b900c2;
+
             a {
-              .card-title {
-                color: #333333;
+              img {
+                object-fit: cover;
+              }
+            }
+
+            .card-body {
+              a {
+                text-decoration: none;
+                .card-title {
+                  color: #333333;
+                  font-family: "GeForce-Regular";
+                  font-size: 16px;
+                  line-height: 1em;
+                  text-transform: normal;
+                  font-weight: bold;
+
+                  &:hover {
+                    color: #76b900;
+                  }
+                }
+              }
+              .text-muted {
+                color: #4d4d4d;
+                font-family: "GeForce-Regular";
+                font-size: 14px;
+                line-height: 1em;
+                text-transform: normal;
+              }
+              h6 {
+                // color: #4D4D4D;
                 font-family: "GeForce-Regular";
                 font-size: 16px;
                 line-height: 1em;
                 text-transform: normal;
+                s {
+                  color: red;
+                }
+              }
+
+              p {
+                font-size: 16px;
+                padding: 10px 0;
+                line-height: 24px;
+                font-family: "DINPro-Light";
+              }
+
+              button {
                 font-weight: bold;
+                text-transform: uppercase;
+                font-family: "DINPro-Light";
+                background-color: #76b900;
+                border-color: #76b900;
+                border-radius: 0;
+                padding: 10px;
+                font-size: 16px;
 
                 &:hover {
-                  color: #76b900;
+                  background-color: #86d103;
                 }
               }
             }
-            .text-muted {
-              color: #4d4d4d;
-              font-family: "GeForce-Regular";
-              font-size: 14px;
-              line-height: 1em;
-              text-transform: normal;
+          }
+        }
+      }
+    }
+  }
+
+  // *** TARJETAS GRÁFICAS ***
+  .tGraficas {
+    .foto-principal {
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: 46% 0px;
+
+      .card {
+        .card-img-overlay {
+          width: 740px;
+          padding-top: 180px;
+          h1 {
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 60px;
+            line-height: 1em;
+            font-family: "GeForce-Bold";
+            color: #76b900;
+            text-align: left;
+            align-items: center;
+            word-wrap: break-word;
+            padding-top: 80px;
+          }
+          h2 {
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 36px;
+            line-height: 1em;
+            font-family: "GeForce-Bold";
+            color: #fff;
+            text-align: left;
+            word-wrap: break-word;
+          }
+          p {
+            padding: 10px 0;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 24px;
+            font-family: "DINPro-Light";
+            color: #fff;
+            text-align: left;
+            word-wrap: break-word;
+          }
+        }
+      }
+    }
+
+    .video-caracteristicas {
+      .card {
+        height: 460px;
+        border: none;
+        video {
+          z-index: 0;
+          border: none;
+          height: 100%;
+        }
+        .card-img-overlay {
+          h1 {
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 48px;
+            line-height: 1em;
+            font-family: "GeForce-Bold";
+            color: #fff;
+            text-align: left;
+            align-items: center;
+            word-wrap: break-word;
+          }
+        }
+      }
+    }
+
+    .caracteristicas-1 {
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      .card {
+        .card-img-overlay {
+          h1 {
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 48px;
+            line-height: 1em;
+            font-family: "GeForce-Bold";
+            color: #fff;
+            word-wrap: break-word;
+            padding-top: 30px;
+          }
+          h2 {
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 36px;
+            line-height: 1em;
+            font-family: "GeForce-Bold";
+            color: #76b900;
+            align-items: center;
+            word-wrap: break-word;
+          }
+          p {
+            padding-top: 15px;
+            padding-bottom: 20px;
+            width: 70%;
+            margin: 0 auto;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 24px;
+            font-family: "DINPro-Light";
+            color: #fff;
+            align-items: center;
+            word-wrap: break-word;
+
+            span {
+              color: #76b900;
             }
-            h6 {
-              // color: #4D4D4D;
-              font-family: "GeForce-Regular";
-              font-size: 16px;
-              line-height: 1em;
-              text-transform: normal;
-              s {
-                color: red;
+          }
+
+          a {
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 16px;
+            line-height: 24px;
+            font-family: "DINPro-Light";
+            color: #76b900;
+            align-items: center;
+            word-wrap: break-word;
+          }
+        }
+      }
+    }
+
+    .caracteristicas-2 {
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      .card {
+        .card-img-overlay {
+          h1 {
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 48px;
+            line-height: 1em;
+            font-family: "GeForce-Bold";
+            color: #fff;
+            word-wrap: break-word;
+            padding-top: 30px;
+          }
+          h2 {
+            padding-top: 5px;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 24px;
+            line-height: 1em;
+            font-family: "GeForce-Bold";
+            color: #fff;
+            align-items: center;
+            word-wrap: break-word;
+          }
+          p {
+            padding-top: 15px;
+            padding-bottom: 20px;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 24px;
+            font-family: "DINPro-Light";
+            color: #fff;
+            align-items: center;
+            word-wrap: break-word;
+          }
+
+          a {
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 16px;
+            line-height: 24px;
+            font-family: "DINPro-Light";
+            color: #76b900;
+            align-items: center;
+            word-wrap: break-word;
+          }
+
+          button {
+            font-weight: bold;
+            text-transform: uppercase;
+            font-family: "DINPro-Light";
+            background-color: #76b900;
+            border-color: #76b900;
+            border-radius: 0;
+            padding: 14px;
+            font-size: 18px;
+
+            &:hover {
+              background-color: #86d103;
+            }
+          }
+        }
+      }
+    }
+
+    .caracteristicas-3 {
+      background-color: #000;
+      padding: 50px;
+      h1 {
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 48px;
+        line-height: 1em;
+        font-family: "GeForce-Bold";
+        color: #fff;
+        word-wrap: break-word;
+      }
+      .table-responsive {
+        padding: 40px;
+        table {
+          thead {
+            tr {
+              th {
+                font-weight: bold;
+                text-transform: uppercase;
+                font-size: 16px;
+                line-height: 1em;
+                font-family: "GeForce-Bold";
+                color: #76b900;
+                text-align: center;
+                word-wrap: break-word;
+                box-sizing: border-box;
+                padding-bottom: 15px;
+              }
+            }
+          }
+          tbody {
+            tr {
+              th {
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 1.25em;
+                font-family: "DINPro-Light";
+                color: #fff;
+                word-wrap: break-word;
+                box-sizing: border-box;
+                padding: 30px 0px;
+                min-width: 158px;
+                text-align: left;
+              }
+              td {
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 1.25em;
+                font-family: "DINPro-Light";
+                color: #fff;
+                text-align: center;
+                word-wrap: break-word;
+                box-sizing: border-box;
+                //   padding: 30px 0px;
+                vertical-align: middle;
+                min-width: 158px;
+              }
+            }
+          }
+        }
+      }
+
+      button {
+        font-weight: bold;
+        text-transform: uppercase;
+        font-family: "DINPro-Light";
+        background-color: #76b900;
+        border-color: #76b900;
+        border-radius: 0;
+        padding: 14px;
+        font-size: 18px;
+
+        &:hover {
+          background-color: #86d103;
+        }
+      }
+
+      p {
+        width: 54%;
+        margin: 0 auto;
+        color: #666;
+        font-weight: normal;
+        // text-transform: uppercase;
+        font-family: "DINPro-Light";
+        border-radius: 0;
+        padding-top: 30px;
+        font-size: 16px;
+        line-height: 24px;
+      }
+    }
+
+    .caracteristicas-4 {
+      background-color: #1a1a1a;
+      padding: 100px 0px;
+      .gaming {
+        h1 {
+          color: #fff;
+          font-family: "GeForce-Bold";
+          padding-bottom: 10px;
+          text-transform: uppercase;
+          font-size: 48px;
+          line-height: 1em;
+          padding-bottom: 25px;
+        }
+        .card-group {
+          .card {
+            border: none;
+            background-color: #000;
+            .card-body {
+              .card-title {
+                font-weight: bold;
+                color: #76b900;
+                font-family: "GeForce-Bold";
+                font-size: 24px;
+                line-height: 1em;
+                text-transform: uppercase;
+              }
+              .card-text {
+                font-size: 16px;
+                color: #fff;
+                padding: 10px 0;
+                line-height: 24px;
+                font-family: "DINPro-Light";
               }
             }
 
-            p {
-              font-size: 16px;
-              padding: 10px 0;
-              line-height: 24px;
-              font-family: "DINPro-Light";
+            .card-footer {
+              a {
+                font-weight: 700;
+                color: #76b900;
+                font-family: "DINPro-Light";
+                text-transform: uppercase;
+              }
             }
+          }
+        }
+      }
+    }
 
-            button {
+    .caracteristicas-5 {
+      background-color: #1a1a1a;
+
+      h1 {
+        padding-top: 80px;
+        color: #76b900;
+        font-family: "GeForce-Bold";
+        padding-bottom: 10px;
+        text-transform: uppercase;
+        font-size: 48px;
+        line-height: 1em;
+      }
+
+      .container {
+        padding-top: 25px;
+        .col {
+          .card {
+            border: none;
+            background-color: #eee;
+            box-shadow: 0 0 15px 3px #75b900c2;
+
+            a {
+              img {
+                object-fit: cover;
+              }
+            }
+            .card-body {
+              a {
+                text-decoration: none;
+                .card-title {
+                  color: #333333;
+                  font-family: "GeForce-Regular";
+                  font-size: 16px;
+                  line-height: 1em;
+                  text-transform: normal;
+                  font-weight: bold;
+
+                  &:hover {
+                    color: #76b900;
+                  }
+                }
+              }
+              .text-muted {
+                color: #4d4d4d;
+                font-family: "GeForce-Regular";
+                font-size: 14px;
+                line-height: 1em;
+                text-transform: normal;
+              }
+              h6 {
+                // color: #4D4D4D;
+                font-family: "GeForce-Regular";
+                font-size: 16px;
+                line-height: 1em;
+                text-transform: normal;
+                s {
+                  color: red;
+                }
+              }
+
+              p {
+                font-size: 16px;
+                padding: 10px 0;
+                line-height: 24px;
+                font-family: "DINPro-Light";
+              }
+
+              button {
+                font-weight: bold;
+                text-transform: uppercase;
+                font-family: "DINPro-Light";
+                background-color: #76b900;
+                border-color: #76b900;
+                border-radius: 0;
+                padding: 10px;
+                font-size: 16px;
+
+                &:hover {
+                  background-color: #86d103;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // *** MONITORES ***
+  .monitores {
+    .foto-principal {
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: 46% 0px;
+
+      .card {
+        .card-img-overlay {
+          width: 680px;
+          padding-top: 95px;
+          img {
+            padding-top: 80px;
+            padding-bottom: 20px;
+            width: 234px;
+          }
+          h1 {
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 32px;
+            line-height: 32px;
+            font-family: "GeForce-Bold";
+            color: #76b900;
+            text-align: left;
+            align-items: center;
+            word-wrap: break-word;
+          }
+          p {
+            padding: 10px 0;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 24px;
+            font-family: "DINPro-Light";
+            color: #f7f7f7;
+            text-align: left;
+            word-wrap: break-word;
+          }
+          a {
+            font-weight: bold;
+            text-decoration: none;
+            line-height: 1.5em;
+            font-family: "DINPro-Light";
+            color: #76b900;
+            text-align: left;
+            align-items: center;
+            word-wrap: break-word;
+          }
+        }
+      }
+    }
+
+    .caracteristicas {
+      background-color: #000;
+      h1 {
+        padding-top: 100px;
+        font-weight: normal;
+        text-transform: uppercase;
+        font-size: 40px;
+        line-height: 40px;
+        font-family: "GeForce-Regular";
+        color: #f7f7f7;
+        word-wrap: break-word;
+      }
+      .container {
+        .row {
+          .col-4 {
+            h2 {
+              padding-top: 40px;
               font-weight: bold;
               text-transform: uppercase;
+              font-size: 24px;
+              line-height: 24px;
               font-family: "DINPro-Light";
-              background-color: #76b900;
-              border-color: #76b900;
-              border-radius: 0;
-              padding: 10px;
+              color: #fff;
+              word-wrap: break-word;
+            }
+            p {
+              padding-top: 15px;
+              font-weight: normal;
               font-size: 16px;
-
-              &:hover {
-                background-color: #86d103;
+              line-height: 24px;
+              font-family: "DINPro-Light";
+              color: #f7f7f7;
+              word-wrap: break-word;
+            }
+          }
+        }
+        .table {
+          width: 50%;
+          margin: 0 auto;
+          thead {
+            tr {
+              th {
+                padding: 50px 20px 20px 20px;
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 24px;
+                font-family: "DINPro-Light";
+                color: #fff;
+                word-wrap: break-word;
+                vertical-align: middle;
               }
             }
+          }
+          tbody {
+            tr {
+              th {
+                padding: 20px;
+                font-weight: bold;
+                font-size: 21px;
+                line-height: 21px;
+                font-family: "DINPro-Light";
+                color: #76b900;
+                word-wrap: break-word;
+                vertical-align: middle;
+              }
+              td {
+                .fa-check {
+                  padding: 20px;
+                  font-weight: bold;
+                  font-size: 21px;
+                  line-height: 21px;
+                  color: #76b900;
+                  word-wrap: break-word;
+                  vertical-align: middle;
+                }
+                .fa-minus {
+                  padding: 20px;
+                  font-weight: bold;
+                  font-size: 21px;
+                  line-height: 21px;
+                  color: #666666;
+                  word-wrap: break-word;
+                  vertical-align: middle;
+                }
+              }
+            }
+          }
+        }
+        button {
+          margin: 120px 0px 60px 0px;
+          padding: 14px;
+          font-weight: bold;
+          text-transform: uppercase;
+          font-family: "DINPro-Light";
+          background-color: #76b900;
+          border-color: #76b900;
+          border-radius: 0;
+          font-size: 18px;
+          line-height: 1;
 
-            &:hover{
-                box-shadow: 0 0 25px 0 #cfcc20c2;
+          &:hover {
+            background-color: #86d103;
+          }
+        }
+      }
+    }
+
+    .rendimiento {
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: 54% 0px;
+
+      .container {
+        h1 {
+          width: 41.5%;
+          margin-left: auto;
+          font-weight: normal;
+          text-transform: uppercase;
+          font-size: 40px;
+          line-height: 40px;
+          font-family: "GeForce-Regular";
+          color: #f7f7f7;
+          text-align: left;
+          align-items: center;
+          word-wrap: break-word;
+          padding-top: 200px;
+        }
+        p {
+          width: 41.5%;
+          margin-left: auto;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 24px;
+          font-family: "DINPro-Light";
+          color: #f7f7f7;
+          text-align: left;
+          word-wrap: break-word;
+        }
+      }
+    }
+
+    .calidad-imagen {
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: 54% 0px;
+
+      .container {
+        h1 {
+          width: 39%;
+          margin-right: auto;
+          font-weight: normal;
+          text-transform: uppercase;
+          font-size: 40px;
+          line-height: 40px;
+          font-family: "GeForce-Regular";
+          color: #f7f7f7;
+          text-align: left;
+          align-items: center;
+          word-wrap: break-word;
+          padding-top: 200px;
+        }
+        p {
+          width: 41.5%;
+          margin-right: auto;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 24px;
+          font-family: "DINPro-Light";
+          color: #f7f7f7;
+          text-align: left;
+          word-wrap: break-word;
+        }
+      }
+    }
+
+    .v-medida {
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: 54% 0px;
+
+      .container {
+        h1 {
+          width: 41.5%;
+          margin-left: auto;
+          font-weight: normal;
+          text-transform: uppercase;
+          font-size: 40px;
+          line-height: 40px;
+          font-family: "GeForce-Regular";
+          color: #f7f7f7;
+          text-align: left;
+          align-items: center;
+          word-wrap: break-word;
+          padding-top: 80px;
+        }
+        p {
+          width: 41.5%;
+          margin-left: auto;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 24px;
+          font-family: "DINPro-Light";
+          color: #f7f7f7;
+          text-align: left;
+          word-wrap: break-word;
+        }
+
+        .boton-v {
+          width: 41.5%;
+          margin-left: auto;
+
+          button {
+            padding: 14px;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-family: "DINPro-Light";
+            background-color: #76b900;
+            border-color: #76b900;
+            border-radius: 0;
+            font-size: 18px;
+            line-height: 1;
+            text-align: left;
+
+            &:hover {
+              background-color: #86d103;
+            }
+          }
+        }
+      }
+    }
+
+    .para-juegos {
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: 54% 0px;
+
+      .container {
+        h1 {
+          width: 39%;
+          margin-right: auto;
+          font-weight: normal;
+          text-transform: uppercase;
+          font-size: 40px;
+          line-height: 40px;
+          font-family: "GeForce-Regular";
+          color: #f7f7f7;
+          text-align: left;
+          align-items: center;
+          word-wrap: break-word;
+          padding-top: 150px;
+        }
+        p {
+          width: 41.5%;
+          margin-right: auto;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 24px;
+          font-family: "DINPro-Light";
+          color: #f7f7f7;
+          text-align: left;
+          word-wrap: break-word;
+        }
+
+        .boton-juegos {
+          button {
+            padding: 14px;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-family: "DINPro-Light";
+            background-color: #76b900;
+            border-color: #76b900;
+            border-radius: 0;
+            font-size: 18px;
+            line-height: 1;
+            text-align: left;
+
+            &:hover {
+              background-color: #86d103;
+            }
+          }
+        }
+      }
+    }
+
+    .calidad {
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: 54% 0px;
+
+      .container {
+        h1 {
+          width: 41.5%;
+          margin-left: auto;
+          font-weight: normal;
+          text-transform: uppercase;
+          font-size: 40px;
+          line-height: 40px;
+          font-family: "GeForce-Regular";
+          color: #f7f7f7;
+          text-align: left;
+          align-items: center;
+          word-wrap: break-word;
+          padding-top: 150px;
+        }
+        p {
+          width: 41.5%;
+          margin-left: auto;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 24px;
+          font-family: "DINPro-Light";
+          color: #f7f7f7;
+          text-align: left;
+          word-wrap: break-word;
+        }
+
+        .boton-calidad {
+          width: 41.5%;
+          margin-left: auto;
+
+          button {
+            padding: 14px;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-family: "DINPro-Light";
+            background-color: #76b900;
+            border-color: #76b900;
+            border-radius: 0;
+            font-size: 18px;
+            line-height: 1;
+            text-align: left;
+
+            &:hover {
+              background-color: #86d103;
+            }
+          }
+        }
+      }
+    }
+
+    .ventajas {
+      background-color: #000;
+
+      h1 {
+        padding-top: 100px;
+        font-weight: normal;
+        text-transform: uppercase;
+        font-size: 40px;
+        line-height: 40px;
+        font-family: "GeForce-Regular";
+        color: #f7f7f7;
+        word-wrap: break-word;
+      }
+
+      .container {
+          padding-bottom: 60px;
+        .row {
+          .col-4 {
+              img{
+                  padding-top: 40px;
+              }
+            p {
+              padding-top: 15px;
+              font-weight: normal;
+              font-size: 16px;
+              line-height: 24px;
+              font-family: "DINPro-Light";
+              color: #f7f7f7;
+              word-wrap: break-word;
+            }
+          }
+        }
+      }
+    }
+
+    .caracteristicas-5 {
+      background-color: #1a1a1a;
+
+      h1 {
+        color: #76b900;
+        font-family: "GeForce-Bold";
+        padding-bottom: 10px;
+        text-transform: uppercase;
+        font-size: 48px;
+        line-height: 1em;
+        padding-top: 90px;
+      }
+
+      .container {
+          padding-top: 25px;
+        .col {
+          .card {
+            border: none;
+            background-color: #eee;
+            box-shadow: 0 0 15px 3px #75b900c2;
+
+            a{
+                img{
+                    // object-fit: cover;
+                }
+            }
+            .card-body {
+              a {
+                text-decoration: none;
+                .card-title {
+                  color: #333333;
+                  font-family: "GeForce-Regular";
+                  font-size: 16px;
+                  line-height: 1em;
+                  text-transform: normal;
+                  font-weight: bold;
+
+                  &:hover {
+                    color: #76b900;
+                  }
+                }
+              }
+              .text-muted {
+                color: #4d4d4d;
+                font-family: "GeForce-Regular";
+                font-size: 14px;
+                line-height: 1em;
+                text-transform: normal;
+              }
+              h6 {
+                // color: #4D4D4D;
+                font-family: "GeForce-Regular";
+                font-size: 16px;
+                line-height: 1em;
+                text-transform: normal;
+                s {
+                  color: red;
+                }
+              }
+
+              p {
+                font-size: 16px;
+                padding: 10px 0;
+                line-height: 24px;
+                font-family: "DINPro-Light";
+              }
+
+              button {
+                font-weight: bold;
+                text-transform: uppercase;
+                font-family: "DINPro-Light";
+                background-color: #76b900;
+                border-color: #76b900;
+                border-radius: 0;
+                padding: 10px;
+                font-size: 16px;
+
+                &:hover {
+                  background-color: #86d103;
+                }
+              }
             }
           }
         }
